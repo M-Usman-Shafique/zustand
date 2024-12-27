@@ -36,9 +36,7 @@ const Cart = () => {
             </li>
           ))
         ) : (
-          <div className="flex items-center text-gray-400">
-            Empty cart.
-          </div>
+          <div className="flex items-center text-gray-400">Empty cart.</div>
         )}
       </ul>
     </div>
